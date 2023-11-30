@@ -70,3 +70,70 @@
 .tabs .tab-body {
     position: relative; 
 }
+
+
+.tabs .tab-body > div { 
+    position: absolute; 
+    width: 100%; 
+    padding: 20px; 
+    opacity: 0; 
+    top: -100vh; 
+}
+
+
+.tabs .tab-body > div > * {
+    margin: 10px 0px; 
+}
+
+
+.tabs .tab-body > div > p {
+    color: #222; 
+    font-size: 14px; 
+}
+
+
+.tabs .tab-body > div.active { 
+    top: 0px; 
+    opacity: 1; 
+    transition: top 0ms ease-in-out 0ms, 
+       /*  opacity 500ms ease-in-out 0ms */;
+}
+
+
+.tabs .tab-header > div {
+    width: 25%; 
+    text-align: center; 
+    padding: 14px 0px; 
+    color: ghostwhite; 
+    font-size: 16px; 
+    font-weight: 600;
+    cursor: pointer; 
+    transition: color 300ms ease-in-out;
+}
+
+.tabs .tab-header > div.active { 
+    color: crimson; 
+}
+
+.tabs .tab-indicator {
+    position: relative; 
+    height: 55px; 
+    margin-top: -55px;
+}
+
+
+
+.tabs .tab-indicator > div {
+    position: absolute; 
+    left: 0%; 
+    width: 25%;
+    height: 100%; 
+    background: ghostwhite;
+    border-radius: 10px 10px 0px 0px; 
+    transition: all 350ms ease-in-out;
+}
+
+
+
+
+
