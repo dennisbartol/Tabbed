@@ -1,0 +1,36 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tabs { 
+    position: relative; 
+    width: 100%; 
+}
+
+.tabs .title {
+    padding: 50px 20px 100px; 
+    text-align: center; 
+    font-size: 24px; 
+    color: ghostwhite; 
+    background: crimson; 
+}
+
+.tabs .tab-header, 
+.tabs .tab-indicator, 
+.tabs .tab-body {
+    margin: 0 auto; 
+    max-width: 650px; 
+    width: 100%;
+}
+
+.tabs .tab-header {
+    position: relative; 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    height: 55px; 
+    margin-top: -55px;
+    z-index: 2
+}
