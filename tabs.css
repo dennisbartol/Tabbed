@@ -34,3 +34,39 @@
     margin-top: -55px;
     z-index: 2
 }
+
+
+.tabs .tab-header > div { 
+    width: 25%;
+    text-align: center; 
+    padding: 15px 0px; 
+    color: ghostwhite; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: color 350ms ease-in-out; 
+}
+
+.tabs .tab-header > div.active { 
+    color: crimson; 
+}
+
+.tabs .tab-indicator {
+    position: relative; 
+    height: 55px; 
+    margin-top: -55px; 
+}
+
+.tabs .tab-indicator > div {
+    position: absolute; 
+    left: 0%; 
+    width: 25%; 
+    height: 100%; 
+    background: ghostwhite; 
+    border-radius: 10px 10px 0px 0px; 
+    transition: all 350ms ease-in-out; 
+}
+
+
+.tabs .tab-body {
+    position: relative; 
+}
