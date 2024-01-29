@@ -75,7 +75,7 @@
 .tabs .tab-body > div { 
     position: absolute; 
     width: 100%; 
-    padding: 20px; 
+    padding: 2px; 
     opacity: 0; 
     top: -100vh; 
 }
@@ -95,6 +95,7 @@
 .tabs .tab-body > div.active { 
     top: 0px; 
     opacity: 1; 
+    margin: 0; 
     transition: top 0ms ease-in-out 0ms, 
        /*  opacity 500ms ease-in-out 0ms */;
 }
