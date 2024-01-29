@@ -134,6 +134,9 @@
     transition: all 350ms ease-in-out;
 }
 
+h3 { 
+    text-align: center; 
+}
 
 
 
