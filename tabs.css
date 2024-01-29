@@ -75,7 +75,7 @@
 .tabs .tab-body > div { 
     position: absolute; 
     width: 100%; 
-    padding: 20px; 
+    padding: 2px; 
     opacity: 0; 
     top: -100vh; 
 }
